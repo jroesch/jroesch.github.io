@@ -1,6 +1,7 @@
 --- 
-layout: default
+layout: post
 title: About
+date: Ongoing
 ---
 
 Heyo! I'm Jared Roesch, a sometimes computer scientist, and programmer. I'm currently studying 
