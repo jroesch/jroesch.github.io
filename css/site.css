@@ -170,6 +170,11 @@ code span.s {
     color: #E74C3C;
 }
 
+/* Comments */
+code span.cm {
+    color: #BDC3C7;
+}
+
 /* #footer {
     height: 25px;
     margin-top: 15px;
