@@ -2,6 +2,10 @@ body {
     background-color: #2C3E50;
 }
 
+a {
+    text-decoration: none;
+}
+
 #site {
     color: white;
 }
@@ -156,22 +160,23 @@ code {
 }
 
 /* Keywords */
-code span.k {
+code span.k, code span.kp, code span.kc {
     color: #1ABC9C;
+    font-weight: bold;
 }
 
 /* Types */
 code span.kt {
-    color: #C0392B;
-}
-
-/* Strings */
-code span.s {
     color: #E74C3C;
 }
 
+/* Strings */
+code span.s, code span.s2, code span.sr {
+    color: #3498DB;
+}
+
 /* Comments */
-code span.cm {
+code span.cm, code span.c1 {
     color: #BDC3C7;
 }
 
