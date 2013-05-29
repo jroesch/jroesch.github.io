@@ -10,6 +10,12 @@ a {
     color: white;
 }
 
+#mobile-site {
+    color: white;
+    max-width: 320px;
+    margin-right: 0px;
+}
+
 #sidebar {
     position: absolute;
     width: 26%;
@@ -34,9 +40,27 @@ a {
     background-color: #34495E;
 }
 
+#mobile-column {
+    /* margin-top: -10px;
+    padding-top: 10px;
+    margin-bottom: -10px;
+    padding-bottom: 10px;
+    position: relative;
+    margin-left: 26%;
+    min-height: 950px;
+    z-index: 10; */
+    background-color: #34495E;
+    font-size: 12px;
+}
+
 .container-fluid {
     padding-right: 0px;
     padding-left: 0px;
+}
+
+#mobile-site .container-fluid {
+    margin-right: -20px;
+    margin-left: -20px;
 }
 
 .me-img {
@@ -77,10 +101,30 @@ a {
     font-size: 17px;
     line-height: 27px;
     padding-bottom: 25px;
+    margin-right: 25px;
+    max-width: 750px;
+}
+
+#mobile-site .post-content {
+    padding-left: 25px;
+    max-width: 320px;
+}
+
+#mobile-site .post-content > h1, 
+#mobile-site .post-content > h2,
+#mobile-site .post-content > h3,
+#mobile-site .post-content > h4,
+#mobile-site .post-content > h5,
+#mobile-site .post-content > h6 {
+    font-size: 16px;
 }
 
 .post-content p {
     max-width: 750px;
+}
+
+#mobile-site .post-content p {
+    max-width: 300px;
 }
 
 #full-name {
@@ -136,10 +180,19 @@ a.bordered-link:hover {
     box-shadow: inset 0 0 1px #2C3E50;
 }
 
+#mobile-site .highlight {
+    max-width: 255px;
+    margin-right: 0px;
+}
+
 .highlight pre {
     background-color: transparent;
     border-radius:0px;
     border: none;
+}
+
+#mobile-site .highlight pre {
+    font-size: 12px;
 }
 
 .highlight code {
@@ -150,13 +203,24 @@ a.bordered-link:hover {
   color: white;
 }
 
+#mobile-site .highlight code {
+    font-size: 12px;
+}
+
 code {
     background-color: #2C3E50;
     -moz-box-shadow: inset 0 0 1px #2C3E50;
     -webkit-box-shadow: inset 0 0 1px #2C3E50;
     box-shadow: inset 0 0 1px #2C3E50;
     color: white;
-    border: none;
+    border: none;    
+}
+
+#mobile-site p > code {
+    display: inline-block;
+    max-width: 225px;
+    white-space: normal;
+    font-size: 12px;
 }
 
 /* Keywords */

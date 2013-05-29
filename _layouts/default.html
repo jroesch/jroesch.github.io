@@ -21,10 +21,37 @@
     <![endif]-->
     </head>
     <body>
-        <div id="site" class="container-fluid">
+        <div id="mobile-site" class="visible-mobile hidden-desktop">
+            <div id="name">
+            <h1>jared</h1>
+            </div>
+            <div id="full-name">
+                    JARED ROESCH
+            </div>
+            <div id="small-about">
+                Programmer. Researcher. M.S. Student. 
+            </div>
+            <ul id="links">
+                <li id="about-me">
+                    <a class="bordered-link" href="/about.html">about jroesch</a>
+                </li>
+                <li id="twitter-link">
+                    <a class="bordered-link" href="http://twitter.com/roeschinc">@roeschinc</a>
+                </li>
+                <li id="resume">
+                    <a class="bordered-link" href="/resume_jared_roesch.pdf">résumé</a>
+                </li>
+            </ul>
+            <div class="container-fluid">
+                <div id="mobile-column">
+                    {{ content }}
+                </div>
+            </div>
+            </div>
+        </div>    
+        <div id="site" class="container-fluid visible-desktop">
             <div id="sidebar">
                 <a href="/" class="me-img visible-desktop"></a>
-                <div class="me-img visible-tablet"></div>
                 <div id="name">
                     <h1>jared</h1>
                 </div>
@@ -40,6 +67,9 @@
                     </li>
                     <li id="twitter-link">
                         <a class="bordered-link" href="http://twitter.com/roeschinc">@roeschinc</a>
+                    </li>
+                    <li id="resume">
+                        <a class="bordered-link" href="/resume_jared_roesch.pdf">résumé</a>
                     </li>
                 </ul>
             </div>
