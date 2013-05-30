@@ -2,45 +2,46 @@
 layout: post
 title: Scala for Rubyists (Part One)
 ---
+You might have seen a dozen posts about why *you* should care about new language X or Y, and you might find 
+yourself asking:
+
 ## Why should you care about Scala?
-You should care because Scala has many properties that make it attractive to developers. With that said it is not 
-necesarily a cure-all or the "one true language". Though having worked in a few different contexts: academia, a startup,
-school, open source, I've found the langauge to be one of the first tools I reach for. There are a few reasons for this:
+Because Scala has many properties that make it attractive to developers. With that said it is not 
+necesarily a cure-all or the "one true language". Having worked in different contexts: academia, a startup,
+school, open source, I've found the langauge to be one of the first tools I reach for. There are a few reasons why,
+Scala is:
 
 - concise
 - scalable (wrt to the language and its abstractions)
 - fast
 - productive 
 - mature
-- build tools
-- corectness
+- well tooled
+- correct
 
-On top of these advantages, Scala has one of the most advanced type systems around, allowing one to encode
-very powerful abstractions(which we will talk about it later parts). I believe that a advanced type system allows a 
-measure of productivity and safety not found in many other languages. Many people love dynamic languages for
-their developer productivity. Although beloved by programmers these languages have away traded safety and
-performance for developer happiness. 
+As well as these advantages, Scala has a very advanced type systems, allowing one to encode very powerful 
+abstractions, and invariants. A powerful type system allows a  measure of productivity and safety not found 
+in many languages. Many people love dynamic languages for their developer productivity, decrying the old statically
+typed languages. Although beloved by programmers these languages have away traded safety and performance for 
+developer happiness. 
 
-In regards to you might say, "That isn't true, look at all these great JIT's like PyPy, and Rubinius. Dynamic languages 
-can be fast too!". Yes, they can be faster then they have been in the past, but JITs are not a silver bullet.
-I've heard many people  post non-truths like "Dynamic Languages aren't inherently slow.", which is not true. 
-Adaptability comes at a price of specificity. Static languages have a whole set of properties that allow compilers
-to generate faster code, most JIT optimizations attempt to hopefully type a subset of your dynamic language enabling
-the compiler to generate very static code. 
+You might be saying, "That isn't true, look at all these great JIT's like PyPy, and Rubinius. Dynamic languages 
+can be fast too!". Their performance is getting better and better, but JITs are not a silver bullet. JITs can only
+do so much before their overhead out weighs their performance increases. At the same time coming up with novel JIT
+operations is really hard espeically especially difficult in languages like JavaScript. Optimization of it is one 
+of the core topics of my research group, and everyone of us can attest to how difficult JavaScript is to reason about 
+and optimize, many of these things are also issues in Ruby, and Python (like eval). 
 
-Crafting these optimizations is especially difficult in languages like JavaScript, its optimization is one of the core
-topics of my research group, everyone of us can attest to how difficult JavaScript is to reason about and optimize, many 
-of these things are also issues in Ruby, and Python(think eval). 
+At the same time, there are some awesome things built in these languages. There is a middle ground in which type
+infered languages exist. They bring the productivity gains offered by dynamic languages with greater safety. Being
+statically typed there are some great performance wins as well.
 
-At the same time, there are some awesome things built in these languages. I would argue frameworks like Rails are the
-*best* at doing *easy* and *fast* development on the web. 
-
-If you are a company running a rapidly growing web service you may be running into trouble scaling to your users.
-The canonical example of this would be Twitter. Since running into many scaling issues(circa 2007), they have 
-moved most of their backend into Scala. This has paid off and allowed them to handle the massive load that 
-events like the 2012 presidential election create. You don't need to be Twitter's size to run into scaling problems
-though. One of my main goals this summer will be helping fix some scaling problems at much, much smaller company.
-You could have a host of scaling problems due to the nature of Ruby, such as concurrency.
+Let's suppose that you are running a rapidly growing web service. You have recently moved out of the early startup phase
+and are running analytics. You have recently grown in size and are having trouble scaling. The canonical example of this
+is Twitter. They began running into many scaling issues(circa 2007), and began moving pieces to Scala. In the intervening
+years they have moved a large chunk of their backend into Scala. This has paid off and allowed them to handle the 
+massive load that events like the 2012 presidential election create. You don't need to be Twitter's size to run 
+into scaling problems. 
 
 *What do you do?*
 
