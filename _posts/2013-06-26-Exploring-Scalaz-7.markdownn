@@ -1,0 +1,50 @@
+---
+layout: post
+title: Exploring Scalaz 7
+---
+
+Scalaz is one of those libraries that I've been meaning to explore, and better document for a long time. I remember
+trying to find good tutorials on it a few years ago, when I first began writing Scala, and the story was not very good.
+The number of tutorials, and blog posts using it have grown over the years, but with the upcoming release of Scalaz 7
+much of the codebase has been rearranged, cleaned up, and redesigned. At the same time being a full-time student, 
+working in a research lab, and trying to find a summer job has kept me occupied the last few months, and the time
+to write posts has been non-existant. As summer approaches, I figured it would be a great to begin a series of posts, 
+documenting my explorations of the library so that can others can benefit from my investement in reading the source code.
+
+In this first post we will discuss the general layout of the Scalaz library as a whole, and then more specifically the 
+layout of scalaz/core, where the everyone's favorite type classes live such as Functor, Monad, Applicative, ect. 
+
+The modules of the Scalaz project are:  
+
+- concurrent
+- core
+- effect
+- iteratee
+- iterv
+- scalacheck-binding
+- typelevel
+- xml
+
+# concurrent
+
+# core
+
+# effect
+
+# iteratee
+
+# iterv
+
+# scalacheck-binding
+
+# typelevel
+
+# xml
+
+These project's have been modularized and you can include one part or them all easily in sbt, for example to include core:
+
+```scala
+libraryDependencies += "org.scalaz" %% "scalaz-core" % "7.0.0-M7"
+```
+
+Now lets look at core's structure a little more in depth:
