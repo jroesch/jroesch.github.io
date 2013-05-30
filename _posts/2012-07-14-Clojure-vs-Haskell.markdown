@@ -61,6 +61,6 @@ and does a map, and reduce.
 (def grtr-zero (every-pred #(< 0 %))
 ```
 
-My experince of writing Clojure made me appreciate consistency of Haskell even more. The combination of types and
-consistent semantics help tremendously while writing code.
+My experince writing Clojure made me appreciate consistency of Haskell even more. The combination of types and
+consistent semantics helps tremendously while writing code.
 
