@@ -12,17 +12,17 @@ You should be interested in Scala because it has properties that make an it attr
 - mature
 - correct
 
-Scala also has an advanced type systems, allowing one to encode very powerful abstractions(which we will talk about later in the series). I believe that a sufficiently good type system allows a measure of productivity and safety not found in many other languages. Although many people love dynamic languages for their developer productivity these languages have away traded 
+Scala also has an advanced type system, allowing one to encode very powerful abstractions(which we will talk about later in the series). I believe that a sufficiently good type system allows a measure of productivity and safety not found in many other languages. Although developers love dynamic languages for their productivity many of these languages have away traded 
 safety and performance in turn. Scala is able to achieve a good balance between developer happiness, and safety.
 
-I hope that as a computer scientist or engineer that you may just be interested in a new language for learning's sake. But if you need a motivation, lets detail one now(if you are sold on checking Scala out feel free to move to part 2).
+I hope that as a computer scientist or engineer that you may be interested in a new language for learning's sake. If you need a motivation, lets detail one now(if you are sold on checking Scala out feel free to move to part 2).
 
 ### Motivation
-For many Scala is interesting is as an alternative for or complement to Ruby. Some heavy users of Ruby have actually turned away from the language in favor of Scala. The canonical example of this is Twitter. The ran into massive scaling issues(circa 2007). Since then they have moved most of their backend services into Scala. This has paid off and allowed them to handle the massive load of events like the 2012 presidential election with ease. You don't need to be Twitter's size to run into scaling problems. You could have a host of similar scaling problems as you transition from being small company to a larger one.  
+For many Scala is interesting as an alternative for, or complement to Ruby. Some heavy users of Ruby have actually turned away from the language in favor of Scala. The canonical example of this is Twitter. They ran into massive scaling issues(circa 2007). Since then they have moved most of their backend services into Scala. This has paid off and allowed them to handle the massive load of events, like the 2012 presidential election with ease. You don't need to be Twitter's size to run into scaling problems. You could have a host of similar issues as you transition from being a small company to a large one.
 
-Let's say that you are in fact having performance issues in your stack, what do you do?
+Let's say that you are in fact having performance issues what do you do?
 
-You could try carefully optimizing each piece, heavily profiling them, isolating precise problems areas, and then optimizing them. Most likely generating inelegant code that obfuscates your logic in the process. Even after expending a lot of effort it may not be enough.
+You could try carefully optimizing each piece, heavily profiling them, isolating precise problems areas, and then optimizing them. Most likely generating inelegant code that obfuscates your logic in the process. After expending a lot of effort it may not be enough to meet your demands.
 
 Traditionally when developers needed performance they went to these languages:
 
