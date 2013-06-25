@@ -91,7 +91,7 @@ val res = if (true && false) 1 else "hello"
 val res = if (true) 1 else 1
 // res: Int = "hello"
 ```
-Scala does not have the ternary or in Ruyb parlance, the modifier `if`.
+Scala does not have the ternary or in Ruby parlance, the modifier `if`.
 
 There is one case that you must be careful of in Scala, if you leave the else branch off an `if`
 the when the condition is false you will get Unit returned from the else branch.
@@ -102,7 +102,7 @@ def returnsInt(x: Int, y: Int): Int = if (false) x + y
 ```
 
 the above example will not compile because the type of the `if` will be AnyVal not Int. Although this may be initially
-annoying to those comming from dynamically typed language, this guarantees that you will always receive an `Int` from 
+annoying to those coming from dynamically typed language, this guarantees that you will always receive an `Int` from 
 addInt, and not a nil value like you would in Ruby.
 
 ```ruby
