@@ -3,7 +3,7 @@ layout: post
 title: Scala for Rubyists (Part One)
 ---
 ## Why should you care about Scala?
-You should be interested in Scala because it has properties that make an it attractive tool for doing development. Having worked in a few different contexts: academia, a startup, a more company, and open source. I've found the language to be one of the first tools I reach for. There are a few reasons for this, Scala is:
+You should be interested in Scala because it has properties that make an it attractive tool for doing development. Having worked in a few different contexts: academia, a startup, a more established company, and in open source. I've found the language to be one of the first tools I reach for. There are a few reasons for this, Scala is:
 
 - concise
 - scalable (wrt to the language and its abstractions)
