@@ -3,8 +3,7 @@ layout: post
 title: Scala for Rubyists (Part One)
 ---
 ## Why should you care about Scala?
-You should be interested in Scala because it has properties that make it attractive tool for doing development. Having worked in 
-a few different contexts: academia, a startup, a more company, and open source. I've found the language to be one of the first tools I reach for. There are a few reasons for this, Scala is:
+You should be interested in Scala because it has properties that make an it attractive tool for doing development. Having worked in a few different contexts: academia, a startup, a more company, and open source. I've found the language to be one of the first tools I reach for. There are a few reasons for this, Scala is:
 
 - concise
 - scalable (wrt to the language and its abstractions)
@@ -13,7 +12,7 @@ a few different contexts: academia, a startup, a more company, and open source. 
 - mature
 - correct
 
-Scala also has an advanced type systems, allowing one to encode very powerful abstractions(which we will talk about later in the series).I believe that a sufficiently good type system allows a measure of productivity and safety not found in many other languages. Although many people love dynamic languages for their developer productivity these languages have away traded 
+Scala also has an advanced type systems, allowing one to encode very powerful abstractions(which we will talk about later in the series). I believe that a sufficiently good type system allows a measure of productivity and safety not found in many other languages. Although many people love dynamic languages for their developer productivity these languages have away traded 
 safety and performance in turn. Scala is able to achieve a good balance between developer happiness, and safety.
 
 I hope that as a computer scientist or engineer that you may just be interested in a new language for learning's sake. But if you need a motivation, lets detail one now(if you are sold on checking Scala out feel free to move to part 2).
