@@ -1,4 +1,9 @@
-pygments: true
-auto: true
-future: false
-markdown: redcarpet
+gems:
+  - octopress-genesis-theme
+  - octopress-debugger
+  - octopress-codefence
+
+url: http://jroesch.github.io/
+name: Higher Minded Types
+author: Jared Roesch
+ink_watch: theme
