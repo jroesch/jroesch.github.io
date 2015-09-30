@@ -1,5 +1,5 @@
 ---
-layout: theme:page
+layout: default
 title: "Higher Minded Types"
 ---
 
