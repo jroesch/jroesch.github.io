@@ -6,4 +6,6 @@ gems:
 url: http://jroesch.github.io/
 name: Higher Minded Types
 author: Jared Roesch
-ink_watch: theme
+sass:
+  sass_dir: _sass
+  style: compressed
