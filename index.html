@@ -1,64 +1,39 @@
 ---
 layout: default
-title: "Jared Roesch's Research Homepage"
+title: "Jared Roesch -- University of Washington"
 ---
-  <!-- <div class="jumbotron">
-    <h1>Jumbotron heading</h1>
-    <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-    <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
-  </div> -->
 
-  <div id="my-info" class="row">
-    <div class="col-lg-6">
-      <img style="border-radius: 50%;" height="150px" src="/images/me.jpg">
-    </div>
-
-    <div class="col-lg-6" id="contact-info">
+<div class="clearfix xs-my4">
+  <div class="xs-col-6 xs-mx-auto gutters">
+    <div class="col xs-col-4" id="contact-info">
       <address>
-        Computer Science PhD Student <br>
-        University of Washington <br>
+        Jared Roesch<br>
+        Computer Science PhD Student<br>
+        University of Washington<br>
         <a href="mailto:jroesch@cs.washington.edu">jroesch@cs.washington.edu</a><br>
         Office: <a href="http://www.washington.edu/maps/#!/cse">CSE 518</a><br>
         Lab: <a href="http://www.washington.edu/maps/#!/cse">CSE 407</a><br>
       </address>
     </div>
-  </div>
 
-  <div>
+    <div class="col xs-col-2">
+      <img class="circle" height="100" width="100" src="/images/me.jpg">
+    </div>
+  </div>
+</div>
+
+<div class="clearfix">
+  <div class="xs-col-8 xs-mx-auto">
     {% inline_markdown %}
     {% include_relative about_content.md %}
     {% endinline_markdown %}
   </div>
 
-  <div class="row marketing">
+  <div class="xs-col-8 xs-mx-auto">
+    <h3>News</h3>
     <h3>Research</h3>
     I am currently working with Xi Wang and Zach Tatlock on improving the
     state of the art in systems programming and verification. We
     are currently working on Ouroboros a verified JIT compiler for eBPF.
-
-    <h3>Publications</h3> </br>
-
-    <h4>Graduate Work</h4>
-    Coming soon ...
-    </br>
-
-    <h4>Undergradute Work</h4>
-    {% inline_markdown %}
-    [Fuzzing the Rust Typechecker Using CLP](/papers/rust_fuzz.pdf).
-    Kyle Dewey, **Jared Roesch**, Ben Hardekopf. ASE 2015. [[acm](/notyet)]
-
-    [Language fuzzing using constraint logic programming](/papers/clp_fuzz.pdf)
-    Kyle Dewey, **Jared Roesch**, Ben Hardekopf. ASE 2014. [[acm](http://dl.acm.org/citation.cfm?id=2642963)]
-
-    [Improved Type Specialization for Dynamic Scripting Languages](/papers/type_spec.pdf).
-    Madhukar N. Kedlaya, **Jared Roesch**, Behnam Robatmili, Mehrdad Reshadi, Ben Hardekopf.
-    DLS 2013. [[acm](http://dl.acm.org/citation.cfm?doid=2508168.2508177)]
-    {% endinline_markdown %}
-
-    <h3>Teaching</h3>
-    {% inline_markdown %}
-    Teaching Assitant for CSE 451: Operating Systems [[15au](https://courses.cs.washington.edu/courses/cse451/15au/)]
-    {% endinline_markdown %}
-
-    <h3>Talks</h3>
   </div>
+</div>

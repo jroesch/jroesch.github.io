@@ -6,34 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Jared Roesch">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Jared Roesch's Research Site</title>
+    <title>Jared Roesch -- University of Washington</title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- Solid CSS -->
     <link href="/css/site.css" rel="stylesheet">
   </head>
 
   <body>
-    <div class="container">
-      <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation"><a href="/">Home</a></li>
-            <li role="presentation"><a href="about.html">About</a></li>
-            <li role="presentation"><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-        <h3 class="text-muted">Jared Roesch</h3>
+    <div class="content clearfix gutters">
+      <div class="xs-col-11 xs-py3 xs-px1 xs-mx-auto xs-my4 fill-white xs-border rounded">
+        <div class="xs-col-4 xs-mx-auto xs-py2">
+          <a class="button button--secondary button--small" href="/">Home</a>
+          <a class="button button--secondary button--small" href="about.html">About</a>
+          <a class="button button--secondary button--small" href="code.html">Code</a>
+          <a class="button button--secondary button--small" href="publications.html">Publications</a>
+          <a class="button button--secondary button--small" href="talks.html">Talks</a>
+          <a class="button button--secondary button--small" href="teaching.html">Teaching</a>
+          <a class="button button--secondary button--small" href="contact.html">Contact</a>
+        </div>
+
+        <div class="xs-col-11">
+            {{ content }}
+        </div>
       </div>
-
-      {{ content }}
-
-      <footer class="footer">
-        <p>&copy; Jared Roesch 2016</p>
-      </footer>
-
     </div> <!-- /container -->
   </body>
 </html>

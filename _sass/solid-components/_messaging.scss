@@ -1,0 +1,65 @@
+//
+// Messaging
+// --------------------------------------------------
+
+.page-message {
+  margin-top: .125rem;
+  padding: .75rem;
+  font-size: $text-4;
+  font-weight: $bold;
+}
+
+.page-message__text {
+
+  &:before {
+    content: "";
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+    position: relative;
+    bottom: -2px;
+    margin-right: $space-1;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.page-message__action {
+  text-decoration: underline;
+}
+
+.page-message--error {
+  background-color: $fill-red--lighter;
+  color: $text-red;
+
+  .page-message__text,
+  .page-message__action {
+    color: $text-red;
+
+    &:before {
+      background-image: svg-background($exclamation-circle);
+      background-size: 1rem;
+    }
+  }
+}
+
+.page-message--success {
+  background-color: $fill-green--lighter;
+  color: $text-green;
+
+  .page-message__text, 
+  .page-message__action {
+    color: $text-green;
+
+    &:before {
+      background-image: svg-background($checkmark);
+      background-size: .625rem;
+      background-color: $fill-green;
+      border-radius: 50%;
+    }
+  }
+}
+
+.page-message__action:hover {
+  color: $text-blue;  
+}
