@@ -1,10 +1,5 @@
-gems:
-  - octopress-genesis-theme
-  - octopress-debugger
-  - octopress-codefence
-
 url: http://jroesch.github.io/
-name: Higher Minded Types
+name: Jared Roesch
 author: Jared Roesch
 sass:
   sass_dir: _sass
