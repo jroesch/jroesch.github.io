@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+<h1>About</h1>
+
+<div>
+    {% capture about_content %}{% include_relative about_content.md %}{% endcapture %}
+    {{ about_content | markdownify }}
+</div>

@@ -2,12 +2,6 @@
 layout: default
 title: "Jared Roesch's Research Homepage"
 ---
-  <!-- <div class="jumbotron">
-    <h1>Jumbotron heading</h1>
-    <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-    <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
-  </div> -->
-
   <div id="my-info" class="row">
     <div class="col-lg-6">
       <img style="border-radius: 50%;" height="150px" src="/images/me.jpg">
@@ -25,31 +19,24 @@ title: "Jared Roesch's Research Homepage"
   </div>
 
   <div>
-    {% include_relative about_content.md %}
+      {% capture about_content %}{% include_relative about_content.md %}{% endcapture %}
+      {{ about_content | markdownify }}
   </div>
 
-  <div class="row marketing">
+  <div id="research" class="row marketing">
     <h3>Research</h3>
-    I am currently working with Xi Wang and Zach Tatlock on improving the
-    state of the art in systems programming and verification. We
-    are currently working on Ouroboros a verified JIT compiler for eBPF.
+    I am currently working with Luke Nelson, Xi Wang and Zach Tatlock on
+    using verified self-hosting to build in-kernel JIT compilers.
 
-    <h3>Publications</h3> </br>
+    <h3>Publications</h3>
 
     <h4>Graduate Work</h4>
     Coming soon ...
     </br>
 
     <h4>Undergradute Work</h4>
-    [Fuzzing the Rust Typechecker Using CLP](/papers/rust_fuzz.pdf).
-    Kyle Dewey, **Jared Roesch**, Ben Hardekopf. ASE 2015. [[acm](/notyet)]
-
-    [Language fuzzing using constraint logic programming](/papers/clp_fuzz.pdf)
-    Kyle Dewey, **Jared Roesch**, Ben Hardekopf. ASE 2014. [[acm](http://dl.acm.org/citation.cfm?id=2642963)]
-
-    [Improved Type Specialization for Dynamic Scripting Languages](/papers/type_spec.pdf).
-    Madhukar N. Kedlaya, **Jared Roesch**, Behnam Robatmili, Mehrdad Reshadi, Ben Hardekopf.
-    DLS 2013. [[acm](http://dl.acm.org/citation.cfm?doid=2508168.2508177)]
+    {% capture ugrad_research %}{% include_relative undergrad_research.md %}{% endcapture %}
+    {{ ugrad_research | markdownify }}
 
     <h3>Teaching</h3>
     Teaching Assistant for CSE 451: Operating Systems <a href="https://courses.cs.washington.edu/courses/cse451/15au/">[15au]</a>

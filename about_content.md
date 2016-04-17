@@ -1,6 +1,3 @@
----
----
-
 You have stumbled upon the website of Jared Roesch.
 
 I'm a first year PhD in the PLSE group at the University of Washington. I am
