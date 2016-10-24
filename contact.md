@@ -2,7 +2,7 @@
 layout: default
 ---
 
-You can find me many places on the internet:
+You can find me in the normal places on the internet:
 
 [LinkedIn](https://www.linkedin.com/in/jaredroesch)  
 
@@ -10,4 +10,4 @@ You can find me many places on the internet:
 
 [Twitter](https://twitter.com/roeschinc)  
 
-[Github](https://github.com/jroesch)  
+[Github](https://github.com/jroesch)

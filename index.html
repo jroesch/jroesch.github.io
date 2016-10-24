@@ -18,15 +18,21 @@ title: "Jared Roesch's Research Homepage"
     </div>
   </div>
 
-  <div>
+  <div id="about">
       {% capture about_content %}{% include_relative about_content.md %}{% endcapture %}
       {{ about_content | markdownify }}
   </div>
 
-  <div id="research" class="row marketing">
+  <div id="news">
+      <h3>News</h3>
+      <div><b>Oct 23</b>: Luke will present a poster on our work on
+      a secure eBPF compiler at <a href="https://www.usenix.org/conference/osdi16">OSDI 2016</a>!
+  </div>
+
+  <!-- <div id="research" class="row marketing">
     <h3>Research</h3>
     I am currently working with Luke Nelson, Xi Wang and Zach Tatlock on
-    using verified self-hosting to build in-kernel JIT compilers.
+    using verified self-hosting to build trustworthy in-kernel JIT compilers.
 
     <h3>Publications</h3>
 
@@ -42,4 +48,4 @@ title: "Jared Roesch's Research Homepage"
     Teaching Assistant for CSE 451: Operating Systems <a href="https://courses.cs.washington.edu/courses/cse451/15au/">[15au]</a>
 
     <h3>Talks</h3>
-  </div>
+  </div> -->
