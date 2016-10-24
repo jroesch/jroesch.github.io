@@ -5,10 +5,10 @@ I am advised by [Zach Tatlock](https://homes.cs.washington.edu/~ztatlock/).
 I am interested in designing new tools for building and reasoning about critical
 software.
 
-I currently am working on a couple different project. Most recently I have
-been working on verified compilers for adversarial environments,
-in particular eBPF in the Linux kernel. I am also writing a native
-code generator for the [Lean](leanprover.github.io) programming language and theorem prover. When time permits I try and contribute patches to [Rust](https://www.rust-lang.org/).
+I currently am working on a couple different projects. Most recently I have
+been constructing verified compilers for adversarial environments,
+in particular one for eBPF in the Linux kernel. I am also writing a native
+code generator for the [Lean](leanprover.github.io) programming language and theorem prover. When time permits I attempt to contribute to [Rust](https://www.rust-lang.org/).
 
 I was previously at the
 [University of California Santa Barbara](https://www.cs.ucsb.edu/)
