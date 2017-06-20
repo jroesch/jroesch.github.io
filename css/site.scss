@@ -100,3 +100,27 @@ body {
     font-size: 13pt;
     margin-bottom: 25px;
 }
+
+.publications {
+   padding: 25px;
+   padding-bottom: 0px;
+}
+
+.publications .bibtexnumber {
+    padding-right: 5px;
+}
+
+.publications .bibtexitem {
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.bibtexitem > blockquote {
+    border-left: none;
+    padding-bottom: 0px
+}
+
+.publications hr {
+    display: none;
+}
+

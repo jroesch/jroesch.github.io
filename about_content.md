@@ -1,14 +1,20 @@
 You have stumbled upon the personal website of Jared Roesch.
 
-I'm a second year PhD student in the PLSE group at the University of Washington.
-I am advised by [Zach Tatlock](https://homes.cs.washington.edu/~ztatlock/).
+I'm a third year PhD student in the PLSE group at the University of Washington.
+I am advised by [Zach Tatlock](https://homes.cs.washington.edu/~ztatlock/),
+and frequently collaborate with [Leonardo de Moura](http://leodemoura.github.io/).
 I am interested in designing new tools for building and reasoning about critical
 software.
 
-I currently am working on a couple different projects. Most recently I have
-been constructing verified compilers for adversarial environments,
-in particular one for eBPF in the Linux kernel. I am also writing a native
-code generator for the [Lean](leanprover.github.io) programming language and theorem prover. When time permits I attempt to contribute to [Rust](https://www.rust-lang.org/).
+I am currently working on a couple projects.
+
+One focuses on a design for constructing verified compilers which execute in adversarial
+environments, in particular one for eBPF in the Linux kernel. I am also working on various
+pieces of the [Lean](leanprover.github.io) programming language and theorem prover, including
+native compilation, sledgehammer style tactics, and various development tools including
+editor modes.
+
+When time permits I attempt to contribute to [Rust](https://www.rust-lang.org/).
 
 I was previously at the
 [University of California Santa Barbara](https://www.cs.ucsb.edu/)
@@ -26,5 +32,6 @@ there. I enjoy cooking, listening, writing and playing music, reading,
 type theory, hacking, coffee, and sleep (when I can).
 
 I am always interested in working with motivated undergraduates who are
-interested in verification, compiler hacking, type theory, and more. Feel
-free to contact me about doing research.
+interested in verification, compiler hacking, type theory, and more.
+I am always execited to here from people who are interested in
+doing research.
