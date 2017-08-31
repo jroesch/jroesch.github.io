@@ -14,6 +14,12 @@ pieces of the [Lean](leanprover.github.io) programming language and theorem prov
 native compilation, sledgehammer style tactics, and various development tools including
 editor modes.
 
+I have also been recently working on the F* programming language, which has been co-designed
+with the [miTLS effort](http://mitls.org/) as part of the larger [Everest Expedition](https://project-everest.github.io/).
+In particular I designed an experimental Lean backend for F*, and have been contributing to
+the design and implementation of low level programming libraries in F*, as well as
+the efficient compilation of F* code to C.
+
 When time permits I attempt to contribute to [Rust](https://www.rust-lang.org/).
 
 I was previously at the
@@ -33,5 +39,5 @@ type theory, hacking, coffee, and sleep (when I can).
 
 I am always interested in working with motivated undergraduates who are
 interested in verification, compiler hacking, type theory, and more.
-I am always execited to here from people who are interested in
-doing research.
+I am always excited to hear from students who are interested in doing
+research, feel free to email me.
