@@ -14,12 +14,12 @@ pieces of the [Lean](leanprover.github.io) programming language and theorem prov
 native compilation, sledgehammer style tactics, and various development tools including
 editor modes.
 
-I have also been recently working on the [F\*](https://www.fstar-lang.org/) programming language,
+I have recently have also been working on the [F\*](https://www.fstar-lang.org/) programming language,
 which has been co-designed with [miTLS](http://mitls.org/) as part of the larger
 [Everest Expedition](https://project-everest.github.io/). In particular I designed an
-experimental Lean backend for F\*, and have been contributing to the design and
-implementation of low level programming libraries for F\*, as well as the efficient compilation
-of F\* code to C.
+experimental Lean backend for F\* verfication conditions, and have been contributing to the
+design and implementation of low level programming libraries in F\* and efficient compilation
+of F\* to C.
 
 When time permits I attempt to contribute to [Rust](https://www.rust-lang.org/).
 
