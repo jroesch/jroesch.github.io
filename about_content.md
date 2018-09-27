@@ -12,10 +12,10 @@ My work is currently focused around the [TVM](tvm.ai) stack.
 
 My main focus designing a new intermediate representation for deep learning frameworks with
 [Tianqi Chen](https://homes.cs.washington.edu/~tqchen/) with the help of many others from
-[SAMPL](sampl.cs.washington.edu). Our goal is to tackle many of the challenges presented
+[SAMPL](https://sampl.cs.washington.edu). Our goal is to tackle many of the challenges presented
 by current deep learning frameworks and compiler.
 
-This new IR is named Relay and is now part of the [TMV Project](https://github.com/dmlc/tvm).
+This new IR is named Relay and is now part of the [TVM Project](https://github.com/dmlc/tvm).
 Relay is under heavy development, but you can find initial details in the [RFC](https://github.com/dmlc/tvm/issues/1673) we drafted.
 
 ### Past Projects
