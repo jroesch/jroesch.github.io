@@ -1,6 +1,6 @@
 You have stumbled upon the personal website of Jared Roesch.
 
-I'm a third year PhD student in the PLSE group at the University of Washington.
+I'm a fourth year PhD student in the PLSE group at the University of Washington.
 I am advised by [Zach Tatlock](https://homes.cs.washington.edu/~ztatlock/)
 and frequently collaborate with [Leonardo de Moura](http://leodemoura.github.io/).
 I am interested in designing new tools for building, optimizing and reasoning about
@@ -8,12 +8,17 @@ critical software.
 
 ### Projects
 
-I am working on a couple active projects.
+My work is currently focused around the [TVM](tvm.ai) stack.
 
-#### PL4ML
 My main focus designing a new intermediate representation for deep learning frameworks with
-[Tianqi Chen](https://homes.cs.washington.edu/~tqchen/). This IR is intended to be the future
-of [NNVM](http://tvmlang.org/).
+[Tianqi Chen](https://homes.cs.washington.edu/~tqchen/) with the help of many others from
+[SAMPL](sampl.cs.washington.edu). Our goal is to tackle many of the challenges presented
+by current deep learning frameworks and compiler.
+
+This new IR is named Relay and is now part of the [TMV Project](https://github.com/dmlc/tvm).
+Relay is under heavy development, but you can find initial details in the [RFC](https://github.com/dmlc/tvm/issues/1673) we drafted.
+
+### Past Projects
 
 #### EBPF
 One focuses on a design for constructing verified compilers which execute in adversarial
@@ -54,6 +59,7 @@ In my personal life I grew up in sunny California and have spent most of my life
 there. I enjoy cooking, listening, writing and playing music, reading,
 type theory, hacking, coffee, and sleep (when I can).
 
-I am interested in working with motivated undergraduates who are interested in compiler hacking, verification,
-program analysis, type theory, and more. I am always excited to hear from students who are interested in
-doing research, feel free to email me.
+I am excited about working with motivated undergraduates from many backgrounds and interests. Currently my interests are around compiler hacking, programming languages for machine learning, machine learning for programming language, verification, program analysis, type theory, and more. I am always excited to talk to undergraduate students about research, and the research process,
+even if just for a cup of coffee. Feel free to drop me a line!
+
+
