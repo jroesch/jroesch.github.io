@@ -1,0 +1,37 @@
+---
+layout: default
+title: "Jared Roesch's Publications"
+---
+<div class="publications">
+    <ul class="list-unstyled">
+        {% for entry in entries %}
+        <li class="publication">
+            <span class="title">
+                {% set url = entry|main_url %}
+                {% if url %}
+                <a href="{{ url|escape }}">{{ entry|title }}</a>.
+                {% else %}
+                {{ entry|title }}.
+                {% endif %}
+            </span>
+            <br>
+            <span class="authors">
+                {{ entry.persons['author']|author_list|replace("Jared Roesch", "<b>Jared Roesch</b>") }}.
+            </span>
+            <br>
+            <span class="venuetype">{{ entry|venue_type -}}</span><span class="venue">{{ entry|venue -}}</span>,
+            <span class="date">
+                {{ entry.fields['month'] }}
+                {{ entry.fields['year'] }}.
+            </span>
+
+            <span class="links">
+                {% for type, url in (entry|extra_urls).items() %}
+                <a href="{{ url|escape }}">{{ type|escape }}</a>
+                {% endfor %}
+            </span>
+        </li>
+
+        {% endfor %}
+    </ul>
+</div>

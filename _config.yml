@@ -4,3 +4,4 @@ author: Jared Roesch
 sass:
   sass_dir: _sass
   style: compressed
+exclude: ['scripts']

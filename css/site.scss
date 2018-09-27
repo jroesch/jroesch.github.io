@@ -128,3 +128,14 @@ body {
 #me {
     border-radius: 5%;
 }
+
+.venue { font-style: italic; }
+
+.publication {
+  font-size: 13pt;
+  margin-bottom: 25px;
+}
+
+.publication > .title {
+  font-size: 14pt;
+}

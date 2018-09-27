@@ -1,1 +1,1 @@
-bibtex2html --no-doc -o _includes/publications_tb  ../cv/publications.bib
+bibble ../cv/publications.bib ./scripts/bib_template.html > publications.html
